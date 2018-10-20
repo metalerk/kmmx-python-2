@@ -40,6 +40,7 @@ class Araña:
 		print('Estoy trepando paredes!')
 
 class HombreAraña(Humano, Araña):
+	edad = 16
 	enemigos = ['King Ping', 'Venom', 'Duende Verde']
 
 	def preguntar_enemigos(self):
