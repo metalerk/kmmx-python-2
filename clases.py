@@ -46,6 +46,14 @@ class HombreAraña(Humano, Araña):
 	def preguntar_enemigos(self):
 		return self.enemigos
 
+	@classmethod
+	def get_copyright(cls):
+		print('Sony')
+
+	@staticmethod
+	def get_copyright2():
+		print('Sony')
+
 print('==================')
 hombre_araña = HombreAraña(nombre='Peter Parker')
 hombre_araña.hablar()
@@ -54,3 +62,6 @@ hombre_araña.cumpleanos()
 print(hombre_araña.preguntar_edad())
 hombre_araña.trepar_paredes()
 print(hombre_araña.preguntar_enemigos())
+
+hombre_araña.get_copyright()
+HombreAraña.get_copyright2()
