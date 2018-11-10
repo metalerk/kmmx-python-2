@@ -4,3 +4,4 @@ env*
 lib*
 Dropbox*
 ips.txt
+aws-lambda/
